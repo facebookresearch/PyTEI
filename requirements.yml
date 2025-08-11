@@ -1,0 +1,16 @@
+name: drs
+channels:
+  - pytorch
+  - conda-forge
+  - nvidia
+  - defaults
+dependencies:
+  - numpy=1.23.5
+  - pandas=1.5.3
+  - pytorch=1.13.1=py3.9_cuda11.7_cudnn8_0
+  - scikit-learn=1.2.2
+  - torchmetrics=0.11.2
+  - tqdm=4.65.0
+  - pip:
+      - timm==0.6.12
+      - torchfm==0.7.0
